@@ -26,10 +26,10 @@ To streamline the setup process, attendees should **follow the instructions to i
 # Tutorial Outline and Resources (Notebooks)
 In this tutorial, our aim is to familiarize participants with the application of various machine-learning tasks to streaming data. We start by providing an introductory overview outlining the typical supervised learning cycle, then we direct our attention to several challenges such as partially and delayed labeled data streams. 
 
-* **Introduction**: `01_KDD2024_introduction.ipynb`
-* **Concept Drift** (Detection, Simulation and Evaluation): `02_KDD2024_drift.ipynb`
-* **Supervised Learning** (Classification and Regression): `03_KDD2024_supervised.ipynb`
-* **Unsupervised Learning** (Clustering), **Anomaly Detection** and **Partially and delayed labeled data** (Semi-supervised learning): `04_KDD2024_advanced.ipynb`
+* **Introduction**: [01_KDD2024_introduction.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/01_KDD2024_introduction.ipynb)
+* **Concept Drift** (Detection, Simulation and Evaluation): [02_KDD2024_drift.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/02_KDD2024_drift.ipynb)
+* **Supervised Learning** (Classification and Regression): [03_KDD2024_supervised.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/03_KDD2024_supervised.ipynb)
+* **Unsupervised Learning** (Clustering), **Anomaly Detection** and **Partially and delayed labeled data** (Semi-supervised learning): [04_KDD2024_advanced.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/04_KDD2024_advanced.ipynb)
 
 More notebooks and tutorials can be found on the [CapyMOA website](https://capymoa.org/tutorials.html). 
 
