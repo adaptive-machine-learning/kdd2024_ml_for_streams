@@ -1,10 +1,14 @@
 # Practical Machine Learning for Streaming Data
 ## KDD 2024 Hands-on Tutorial, Barcelona (Spain)
 
+![Alt text](kdd24-logo-small.jpeg)
+
 ```
 ID: HO-1
 
 Date and Time: Monday, August 26, 10:00 AM – 1:00 PM
+
+Rooms: 122 and 123
 ```
 
 # Introduction
@@ -13,6 +17,9 @@ Our tutorial aims to bridge this gap with a dual focus. We will discuss importan
 
 
 # Tools and programming language
+
+![Alt text](CapyMOA_logo.jpeg)
+
 The tutorial is divided into three parts. Each part will be illustrated through Python examples, even though we will discuss Java implementations the attendees are not expected to have any knowledge of Java. Our objective is for attendees to exit the tutorial equipped with the ability to utilize all the algorithms introduced and possess a clear comprehension of their practical functioning. To facilitate this understanding, we have streamlined the presentation to feature key algorithms per task, thus allowing us to delve beyond theoretical aspects and concentrate on the practical aspects. 
 The following tools will be used during the tutorial: 
 
@@ -21,15 +28,18 @@ The following tools will be used during the tutorial:
 
 ## Installation
 To streamline the setup process, attendees should **follow the instructions to install CapyMOA available [here](https://capymoa.org/installation.html)**
+_We suggest that you follow the development installation in order to use the latest (experimental) clustering API from 04_KDD2024_advanced.ipynb._
 
 
 # Tutorial Outline and Resources (Notebooks)
 In this tutorial, our aim is to familiarize participants with the application of various machine-learning tasks to streaming data. We start by providing an introductory overview outlining the typical supervised learning cycle, then we direct our attention to several challenges such as partially and delayed labeled data streams. 
+**The notebooks were updated on 25/08/2024**
 
 * **Introduction**: [01_KDD2024_introduction.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/01_KDD2024_introduction.ipynb)
 * **Concept Drift** (Detection, Simulation and Evaluation): [02_KDD2024_drift.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/02_KDD2024_drift.ipynb)
 * **Supervised Learning** (Classification and Regression): [03_KDD2024_supervised.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/03_KDD2024_supervised.ipynb)
 * **Unsupervised Learning** (Clustering), **Anomaly Detection** and **Partially and delayed labeled data** (Semi-supervised learning): [04_KDD2024_advanced.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/04_KDD2024_advanced.ipynb)
+* **Solutions to exercises** [05_KDD2024_solutions.ipynb](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/notebooks/05_KDD2024_solutions.ipynb)
 
 More notebooks and tutorials can be found on the [CapyMOA website](https://capymoa.org/tutorials.html). 
 
@@ -47,8 +57,7 @@ The key algorithms discussed include CluStream [9], Half-Space Trees [10] and On
 ## Partially and delayed labeled data
 Finally, we will delve into the exploration of methods designed to tackle the complexities of partially and delayed labeled data in streaming environments. 
 We will bridge the gap between theory and how that can be translated into code, for example, the different scenarios shown in a recent survey [12]. 
-Moreover, we will illustrate how evaluation can be conducted in such settings, where labeling ratios and delays may vary. We will use the basic algorithms cluster-and-label and incremental self-training [13] to illustrate the scenario. 
-
+Moreover, we will illustrate how evaluation can be conducted in such settings, where labeling ratios and delays may vary. 
 
 # Presenters' biography
 **Heitor Murilo Gomes** is a senior lecturer at the Victoria University of Wellington (VuW) in New Zealand. Before joining VuW, Heitor was a senior research fellow and co-director of the AI Institute at the University of Waikato were he taught from 2020 to 2022 the ``Data stream mining'' course. His main research area is the application of machine learning for data streams in a variety of tasks. 
