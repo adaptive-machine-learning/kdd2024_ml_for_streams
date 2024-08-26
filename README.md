@@ -17,7 +17,6 @@ Our tutorial aims to bridge this gap with a dual focus. We will discuss importan
 
 
 # Tools and programming language
-
 ![Alt text](CapyMOA_logo.jpeg)
 
 The tutorial is divided into three parts. Each part will be illustrated through Python examples, even though we will discuss Java implementations the attendees are not expected to have any knowledge of Java. Our objective is for attendees to exit the tutorial equipped with the ability to utilize all the algorithms introduced and possess a clear comprehension of their practical functioning. To facilitate this understanding, we have streamlined the presentation to feature key algorithms per task, thus allowing us to delve beyond theoretical aspects and concentrate on the practical aspects. 
