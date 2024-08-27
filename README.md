@@ -15,6 +15,8 @@ Rooms: 122 and 123
 Machine Learning for Data Streams has been an important area of research since the late 1990s, and its usage in industry has grown significantly over the last few years. However, there is still a gap between the cutting-edge research and the tools that are readily available, which makes it challenging for practitioners, including experienced data scientists, to implement and evaluate these methods in this complex domain.
 Our tutorial aims to bridge this gap with a dual focus. We will discuss important research topics, such as partially delayed labeled streams, while providing practical demonstrations of their implementation and assessment using CapyMOA, an open-source library that provides efficient algorithms implementations through a high-level Python API. Source code is available in [https://github.com/adaptive-machine-learning/CapyMOA](https://github.com/adaptive-machine-learning/CapyMOA) while the accompanying tutorials and installation guide are available in [https://capymoa.org/](https://capymoa.org/).
 
+**Update on 26-08-2024** The slides have been added. Also, we noticed that the run all the notebooks as of now you will need to follow the dev install guide (i.e. you will need to clone the project). That is because of the `Clustering API` and the generator `AgrawalGenerator` which are not available as of version 0.7.0 in CapyMOA. Finally, consider joining our CapyMOA [discord](https://discord.gg/spd2gQJGAb) and starring CapyMOA's [repo](https://github.com/adaptive-machine-learning/CapyMOA) :)
+
 
 # Tools and programming language
 ![Alt text](CapyMOA_logo.jpeg)
@@ -70,6 +72,12 @@ Professor **Albert Bifet** is the Director of the Te Ipu o te Mahara AI Institut
 
 Website: [https://albertbifet.com/](https://albertbifet.com/)
 
+
+# Slides
+* [0_Introduction](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/slides/0_Introduction.pdf)
+* [1_Concept_Drift](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/slides/1_Concept_Drift.pdf)
+* [2_Supervised_Learning](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/slides/2_Supervised_Learning.pdf)
+* [3_Advanced_topics](https://github.com/adaptive-machine-learning/kdd2024_ml_for_streams/blob/main/slides/3_Advanced_topics.pdf)
 
 
 ## References
